@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jade Project</string>
+    <string name="enter_num_agents">Enter the number of participants agents</string>
+    <string name="specify_your_request">Specify your request</string>
+    <string name="enter_duration_of_your_project">Enter the Duration of your project (in days)</string>
+    <string name="enter_the_required_number_of_employees">Enter the required number of employees for doing the job</string>
+    <string name="number_example">e.g. 8\n</string>
+    <string name="start_simulation">Start Simulation</string>
+
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical"
+   >
+
+    <TextView
+
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/specify_your_request"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+
+    </TextView>
+    <TextView
+        android:layout_marginBottom="8dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_duration_of_your_project"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_duration"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/number_example"
+        >
+
+    </EditText>
+
+
+    <TextView
+        android:layout_marginBottom="8dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_required_number_of_employees"
+        android:textColor="@color/black">
+
+    </TextView>
+    <EditText
+        android:id="@+id/et_required_num_employees"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/number_example"
+        >
+
+    </EditText>
+
+    <TextView
+        android:layout_marginBottom="8dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_num_agents"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+
+        >
+
+        <Button
+            android:id="@+id/btn_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="30sp"
+            android:background="@android:color/transparent"
+            />
+
+        <TextView
+            android:id="@+id/tv_num_participants"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="30sp"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/containerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start_simulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@color/white"
+        android:text="@string/start_simulation"
+        >
+
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="start"
+        android:textColor="@color/black"
+        >
+
+
+    </TextView>
+
+</LinearLayout>
+    </ScrollView>
